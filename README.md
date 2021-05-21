@@ -13,3 +13,8 @@ In blog schema i have defined 5 fields id,title,description,date and markdown. i
 In comment schema there are only two fields id and content. It is defined in commentmodels.js file.
 
 # I have used mongodb Atlas online databse for this project.
+
+
+# UI for all given operation
+For the mention operation i have design user interface , So we don't need postman for Api testing . you can validate directl
+here.
