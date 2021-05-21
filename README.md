@@ -1,6 +1,6 @@
 # info 
-Node.js is used for backend. The server is running on localhost on port 4000;
-to run on your system start server and type locahost:4000 in web browser.
+Node.js is used for backend. The server is running on localhost on port 4000.
+To run on your system start server and type locahost:4000 in web browser.
 
 
 # Why NoSQL
