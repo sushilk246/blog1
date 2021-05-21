@@ -2,6 +2,16 @@
 Node.js is used for backend. The server is running on localhost on port 4000.
 To run on your system start server and type locahost:4000 in web browser.
 
+Server setting is done in server.js file.
+
+All routing is done in routes.js file.
+
+# step to run on node.js server
+
+in project folder open command line interface
+
+run this command
+node server.js
 
 # Why NoSQL
 
