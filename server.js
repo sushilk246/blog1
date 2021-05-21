@@ -10,24 +10,31 @@ app.set('view engine', 'ejs');
 app.set('views', path.join(__dirname, 'views'))
 app.use(methodOverride('_method'))
 
-app.get('/',routes);
 
-app.get('/showall',routes);
+app.get('/',routes);//api for home page
 
-app.get('/new',routes);
+app.get('/showall',routes);//api for to get all post
 
-app.post('/new',routes);
-app.post('/search',routes);
-app.post('/delete',routes);
-app.post('/update',routes);
-app.post('/addcomment',routes);
-app.post('/savecomment',routes);
-app.post('/allcomment',routes);
+app.get('/new',routes);//api for add new post
 
-app.get('/:id',routes);
+app.post('/new',routes);//api for saving new post in database
+
+app.post('/search',routes);//api for search post by id
+
+app.post('/delete',routes);//api for delete post by id
+
+app.post('/update',routes);//api for update post by id
+
+app.post('/addcomment',routes);//api for add comments on post by id
+
+app.post('/savecomment',routes);// api for saving comment in database
+
+app.post('/allcomment',routes);//api for fetch all comment on particular post by id
+
+app.get('/:id',routes);//api for showing full post
 
 
-app.put('/:id',routes);
+app.put('/:id',routes);//api for updating post
 
 
 
