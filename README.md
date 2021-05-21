@@ -11,3 +11,5 @@ Basicaly i haved used two schema . One for storing blog and other for comments.
 In blog schema i have defined 5 fields id,title,description,date and markdown. it is defined in blogmodels.js file.
 
 In comment schema there are only two fields id and content. It is defined in commentmodels.js file.
+
+# I have used mongodb Atlas online databse for this project.
