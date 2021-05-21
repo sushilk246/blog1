@@ -11,6 +11,7 @@ All routing is done in routes.js file.
 in project folder open command line interface
 
 run this command
+
 node server.js
 
 # Why NoSQL
