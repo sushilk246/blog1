@@ -19,6 +19,9 @@ In comment schema there are only two fields id and content. It is defined in com
 For the mention operation i have design user interface , So we don't need postman for Api testing . you can validate directly here.
 
 while creating new post there is field for entering id which will be unique for each post.
+
 By using that id you can search, delete and update post.
+
 By using that id you can comment on that post.
+s
 By using that id you can fetch all comments on that post.
