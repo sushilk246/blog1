@@ -8,9 +8,7 @@ All routing is done in routes.js file.
 
 # step to run on node.js server
 
-in project folder open command line interface
-
-run this command
+in project folder open command line interface and  run this command
 
 node server.js
 
