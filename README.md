@@ -12,6 +12,10 @@ in project folder open command line interface and  run this command
 
 node server.js
 
+Now open your web browser and paste this link
+
+http://localhost:4000/
+
 # Why NoSQL
 
 reason for using NoSQL is that its support not fixed schema model , the structer of table is not fixed.
